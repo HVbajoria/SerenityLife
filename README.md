@@ -36,14 +36,13 @@ In the contemporary information-driven world, individuals across the globe grapp
 * With a mind-pleasing and intuitive UI, SerenityLife empowers users to navigate the application effectively, making the assessment process straightforward and stress-free.
 * Leveraging the PHQ-9 questionnaire, a widely recognized and validated tool, SerenityLife generates consistent and reliable results, ensuring users receive accurate feedback on their mental well-being.
 * The chatbot provides immediate and confidential feedback to users, encouraging them to seek further support or take necessary actions to improve their mental health.
-* SerenityLife collaborates with mental health experts to adhere to clinical guidelines and ethical standards, ensuring a safe and reliable platform for users seeking support.
 * SerenityLife ensures user privacy and confidentiality throughout the assessment process, fostering a safe space for individuals to open up about their mental health.
 
  ## Tech Stack: 
  The following tech stacks have been used to create the application and deploy it.   
- * **HTML, CSS and JavaScript** to build the application. 
+ * **HTML5, CSS3 and JavaScript** to build the application. 
 * **JSON** to create the .JSON file which will be used to configure, build and deploy the application on Microsoft Azure.
- * **Microsoft Azure AI Health Care Services** to create a responsive chatbot that assess the severity of depression using the PHQ-9 questionnaire.
+ * **Microsoft Azure AI Health Care Services** to create a responsive chatbot that assesses the severity of depression using the PHQ-9 questionnaire.
  * **Microsoft Azure App Service** to deploy the web application for anyone across the globe to access it.  
  * **GitHub** to host the source code, use the version control (collaboration history) to understand the changes, and go back and forth if required to complete the software.  
     
@@ -53,7 +52,7 @@ In the contemporary information-driven world, individuals across the globe grapp
  ## Website Link :globe_with_meridians: : https://healthcare-bot-jc7etk6zvnnm2.azurewebsites.net/ 
   
  ## Social Impact / Novelty: 
- SerenityLife makes a significant social impact by providing accessible, inclusive, and confidential mental health support globally. By breaking barriers and encouraging early intervention, the application empowers individuals to take charge of their mental wellness, leading to a healthier and more informed society.  
+ SerenityLife makes a significant social impact by providing accessible, inclusive, and confidential mental health support globally. By breaking barriers and encouraging early intervention, the application empowers individuals to take charge of their mental wellness, leading to a healthier, more informed society.  
 
 * **Accessible Mental Health Support:** SerenityLife's global accessibility breaks down geographical barriers, ensuring individuals worldwide can access mental health support effortlessly, regardless of their location or circumstances.
 * **Reduced Stigma and Increased Awareness:** By providing an anonymous and confidential platform, SerenityLife encourages users to seek help without fear of judgment, thereby reducing the stigma surrounding mental health issues and fostering greater awareness.
