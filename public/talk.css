@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+
+* {
+  font-family: "Nunito", sans-serif;
+  background-color: #2D2E42;
+  color: white;
+}
+
+
+#webchat {
+  max-height: 33rem;
+  overflow-y: scroll;
+  width: 50%;
+  background: linear-gradient(rgba(248, 248, 248, 0), rgba(248, 248, 248, .63), #F8F8F8 40%);
+  padding: 6px 6px 6px;
+  color: beige;
+  margin: 5px 40px;
+}
+
+#webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
+  content: "Powered By ...";
+  background: linear-gradient(rgba(248, 248, 248, 0), rgba(248, 248, 248, .63), #F8F8F8 40%);
+  bottom: 0;
+  right: 0;
+  color: #707070;
+  display: block;
+  font-family: 'Segoe Semibold', Calibri, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 12px;
+  padding: 15px 10px 10px;
+  position: absolute;
+  position: sticky;
+  text-align: right;
+}
+
+#webchat[watermark="true"] .webchat__scrollToEndButton {
+  bottom: 32px;
+  left: 50%;
+  right: unset;
+  transform: translate(-50%, 0);
+}
+
+.panda{
+  width: 23%;
+}
+
+.logocontainer{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%
+}
+
+#question {
+  display: flex;
+  font-size: 1.5vw;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#moodimg {
+  width: 5%;
+  margin-left: 3%;
+}
+
+#result {
+  display: flex;
+  justify-content: center;
+}

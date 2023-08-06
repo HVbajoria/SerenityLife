@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+    <script src="index.js"></script>
+    <title>SerenityLife</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="talk.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<header>
+  <nav> 
+    <a href="index.html" style="margin-top: 1.2rem;">Home</a>
+    <a href="talk.html" style="margin-top: 1.2rem;">Talk now</a>
+    <a href="" style="margin-top: 1.2rem; margin-left:60rem ;">SerenityLife</a>
+    <img src="pic/logo.png" alt="logo" id="logo" style="height: 5rem; width: 5rem; margin-left: .3rem; margin-top: 1.3rem;">
+  </nav>
+</header>
+<body>
+    <p id="question">Free Yourself Out!</p>
+    <div class="logocontainer">
+      <img class="panda" src="pic/panda.png">
+      <div id="webchat" role="main" watermark="false"></div>
+      <script>chatRequested();</script>
+    </div>
+    <div id="label-container"></div>
+</body>
+</html>
