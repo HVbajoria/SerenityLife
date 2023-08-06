@@ -46,8 +46,7 @@ In the contemporary information-driven world, individuals across the globe grapp
  * **Microsoft Azure App Service** to deploy the web application for anyone across the globe to access it.  
  * **GitHub** to host the source code, use the version control (collaboration history) to understand the changes, and go back and forth if required to complete the software.  
     
- ## Demo Video Link :movie_camera: : 
- 
+ ## Demo Video Link :movie_camera: : https://youtu.be/65Y9BT1YEsk
   
  ## Website Link :globe_with_meridians: : https://healthcare-bot-jc7etk6zvnnm2.azurewebsites.net/ 
   
