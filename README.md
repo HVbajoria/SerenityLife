@@ -1,55 +1,77 @@
-# Health Bot Container
+# SerenityLife :lotus_position: :computer: 
+ <p align="center"> 
+ <img src="https://ipfs.io/ipfs/bafybeigpapkoufgpimhuor2pbdxfojgraispbpoeywmf26tvemokor4z6i/Logo.png" width="250" alt="Logo" > 
+   </p> 
+ </br> 
+  
+ ## Website Link: https://healthcare-bot-jc7etk6zvnnm2.azurewebsites.net/ 
+  
+ ## Details :  
+ **Name** : Harshavardhan Bajoria</br> 
+  
+ **Country of Residence** : India</br> 
+  
+ **College Name** : Amity University Kolkata 
+  
+ **Graduation Year**: 2024 
+  
+ **Experience Level** : Student</br> 
+  
+ ## Theme :  
+ Empowering mental wellness globally. 
+  
+ ## Problem Statement: 
+In the contemporary information-driven world, individuals across the globe grapple with numerous challenges that can be effectively addressed through the development of a mental health bot capable of conducting depression severity assessments using the PHQ-9 questionnaire:
 
-A simple web page that allows users to communicate with the [Azure Health Bot](https://azure.microsoft.com/en-us/services/bot-services/health-bot/) through a WebChat.
+* Accessibility to professional mental health services remains limited for many, due to geographical constraints, financial limitations, or scarcity of mental health resources in certain regions.
+* Stigma surrounding mental health issues persists in numerous societies, deterring individuals from seeking help, thereby highlighting the need for an anonymous and readily accessible assessment platform like a mental health bot.
+* The overwhelming nature of daily life, coupled with the vast amount of information available, leaves people with limited time and expertise to manually perform depression assessments or seek support.
+* Geographical barriers and limitations in mental health infrastructure can be addressed through a bot that provides immediate feedback and guidance to individuals in need, regardless of their location.
 
-**Note:** In order to use this Web Chat with the Health Bot service, you will need to obtain your Web Chat secret by going to `Integration/Secrets` on the navigation panel.
+ ## Solution: 💡  
+**SerenityLife** is an innovative and inclusive mental health application, purpose-built to tackle the pressing global challenges related to depression assessment. 
 
-![Secrets](/secrets.png)
+* Through its powerful digital chatbot, developed using Azure AI Health Care service, SerenityLife enables individuals worldwide to effortlessly gauge the severity of depression using the trusted PHQ-9 questionnaire.
+* Deployed on Azure App service, SerenityLife breaks barriers and ensures seamless access to the application for users across the globe, without any geographical constraints or hindrances.
+* With a mind-pleasing and intuitive UI, SerenityLife empowers users to navigate the application effectively, making the assessment process straightforward and stress-free.
+* Leveraging the PHQ-9 questionnaire, a widely recognized and validated tool, SerenityLife generates consistent and reliable results, ensuring users receive accurate feedback on their mental well-being.
+* The chatbot provides immediate and confidential feedback to users, encouraging them to seek further support or take necessary actions to improve their mental health.
+* SerenityLife collaborates with mental health experts to adhere to clinical guidelines and ethical standards, ensuring a safe and reliable platform for users seeking support.
+* SerenityLife ensures user privacy and confidentiality throughout the assessment process, fostering a safe space for individuals to open up about their mental health.
 
-1.Deploy the website:
+ ## Tech Stack: 
+ The following tech stacks have been used to create the application and deploy it.   
+ * **HTML, CSS and JavaScript** to build the application. 
+* **JSON** to create the .JSON file which will be used to configure, build and deploy the application on Microsoft Azure.
+ * **Microsoft Azure AI Health Care Services** to create a responsive chatbot that assess the severity of depression using the PHQ-9 questionnaire.
+ * **Microsoft Azure App Service** to deploy the web application for anyone across the globe to access it.  
+ * **GitHub** to host the source code, use the version control (collaboration history) to understand the changes, and go back and forth if required to complete the software.  
+    
+ ## Demo Video Link :movie_camera: : 
+ 
+  
+ ## Website Link :globe_with_meridians: : https://healthcare-bot-jc7etk6zvnnm2.azurewebsites.net/ 
+  
+ ## Social Impact / Novelty: 
+ SerenityLife makes a significant social impact by providing accessible, inclusive, and confidential mental health support globally. By breaking barriers and encouraging early intervention, the application empowers individuals to take charge of their mental wellness, leading to a healthier and more informed society.  
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FHealthBotContainerSample%2Fmaster%2Fazuredeploy.json)
+* **Accessible Mental Health Support:** SerenityLife's global accessibility breaks down geographical barriers, ensuring individuals worldwide can access mental health support effortlessly, regardless of their location or circumstances.
+* **Reduced Stigma and Increased Awareness:** By providing an anonymous and confidential platform, SerenityLife encourages users to seek help without fear of judgment, thereby reducing the stigma surrounding mental health issues and fostering greater awareness.
+* **Prompt Intervention and Support:** The chatbot's immediate and confidential feedback prompts users to take necessary actions, seek further support, or connect with mental health professionals, potentially preventing crisis situations.
+* **Inclusivity and Diversity:** SerenityLife's inclusive design accommodates individuals with disabilities, offering auditory content options for visually impaired users, thus promoting mental health support for all without discrimination.
+* **Enhanced Mental Well-Being:** Through accurate and reliable assessments using the PHQ-9 questionnaire, SerenityLife empowers users to gain deeper insights into their mental well-being, enabling them to take proactive steps towards self-improvement.
+* **Collaboration with Mental Health Experts:** SerenityLife's can collaborate with mental health professionals to ensure adherence to clinical guidelines and ethical standards, creating a trusted and reliable platform for individuals seeking support.
+* **Safe and Confidential Environment:** SerenityLife fosters a safe space for individuals to open up about their mental health struggles, promoting a culture of openness and emotional well-being.
+  
+ ## Future Scope: 
+Building upon its innovative foundation, the future of SerenityLife holds immense potential for further advancements and expanded impact in the realm of mental health support and assessment. With its transformative solution, problem statement, and social impact as the driving force, here are some key areas of future scope:
 
-2.Set the following environment variables:
+* **AI Advancements:** SerenityLife can harness continuous advancements in AI and natural language processing to enhance the chatbot's capabilities. Implementing sentiment analysis and emotion recognition can provide deeper insights into users' emotional states, enabling more personalized support and interventions.
+* **Multilingual Support:** Expanding SerenityLife to support multiple languages can cater to a broader global audience, reaching individuals who face language barriers when seeking mental health resources.
+* **Cultural Sensitivity:** By incorporating cultural nuances and context into the application, SerenityLife can ensure a more culturally sensitive and relevant experience for users from diverse backgrounds.
+* **Remote Mental Health Support:** SerenityLife can explore incorporating video conferencing capabilities with mental health professionals, offering remote counseling sessions for users who require additional support beyond the chatbot.
+* **Personalized Mental Wellness Plans:** By analyzing user assessment data, SerenityLife can generate personalized mental wellness plans, including self-help resources and recommendations, tailored to individual needs and preferences.
 
-`APP_SECRET`
-
-`WEBCHAT_SECRET`
-
-3.Configure scenario invocation (optional):
-
-The Health Bot service uses [language models](https://docs.microsoft.com/HealthBot/language_model_howto) to interpret end user utterances and trigger the relevant scenario logic in response.
-
-Alternatively, you can programmaticaly invoke a scenario before the end user provides any input.
-
-To implement this behavior, uncomment the following code from the `function initBotConversation()` in the `/public/index.js` file:
-```javascript
-triggeredScenario: {
-    trigger: "{scenario_id}",
-    args: {
-        myVar1: "{custom_arg_1}",
-        myVar2: "{custom_arg_2}"
-    }
-}
-```
-Replace {scenario_id} with the scenario ID of the scenario you would like to invoke.
-You can also pass different values through the "args" object. 
-
-You can read more about programmatic client side scenario invocation [here](https://docs.microsoft.com/HealthBot/integrations/programmatic_invocation)
-
-
-4.Set the Bot service direct line channel endpoint (optional)
-
-In some cases it is required to set the endpoint URI so that it points to a specific geography. The geographies supported by the bot service each have a unique direct line endpoint URI:
-
-- `directline.botframework.com` routes your client to the nearest datacenter. This is the best option if you do not know where your client is located.
-- `asia.directline.botframework.com` routes only to Direct Line servers in Eastern Asia.
-- `europe.directline.botframework.com` routes only to Direct Line servers in Europe.
-- `northamerica.directline.botframework.com` routes only to Direct Line servers in North America.
-
-Pass your preferred geographic endpoint URI by setting the environment variable: `DIRECTLINE_ENDPOINT_URI` in your deployment. If no variable is found it will default to `directline.botframework.com`
-
-**Note:** If you are deploying the code sample using the "Deploy to Azure" option, you should add the above secrets to the application settings for your App Service.
-
-## Agent webchat
-If the agent webchat sample is also required, [switch to the live agent handoff branch](https://github.com/Microsoft/HealthBotContainerSample/tree/live_agent_handoff)
+In the coming years, SerenityLife has the potential to revolutionize mental health support globally, spearheading a positive transformation in how individuals approach and manage their mental well-being. By embracing technological advancements, fostering inclusivity, and advocating for mental health awareness, SerenityLife's future scope holds promise in shaping a healthier and emotionally resilient world.
+  
+ ### Build with :heart: by Harshavardhan Bajoria 
